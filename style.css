@@ -26,7 +26,8 @@ p { margin: 0 0 15px; }
 ul { margin: 10px 0 0; padding-left: 27px; }
 .contact-list { margin-top: 22px; }
 .portrait-placeholder, .portrait { width: 220px; height: 275px; }
-.portrait-placeholder { display: grid; place-items: center; color: #999; background: #f5f5f5; border: 1px solid #e7e7e7; font-size: 15px; }
+.portrait-placeholder { display: flex; flex-direction: column; align-items: center; justify-content: center; color: #999; background: #f5f5f5; border: 1px solid #e7e7e7; font-size: 15px; line-height: 1.7; }
+.portrait-placeholder span { font-size: 13px; }
 .portrait { object-fit: cover; }
 .note { color: #777; font-size: 15px; }
 .publications li { margin-bottom: 18px; }
